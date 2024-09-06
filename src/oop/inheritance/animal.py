@@ -106,6 +106,7 @@ lion: WildCat = WildCat("Lion", "Felidae")
 cockroach: Insect = Animal("Cockroach", "Insect")
 
 # Eagle Demonstration
+print("================Eagle================")
 eagle.move()
 eagle.sleep()
 eagle.eat()
@@ -117,11 +118,10 @@ It will use the 'move', 'sleep', 'eat', 'reproduce' methods defined in the paren
 The '__str__' method will print its name and species.
 """
 
-print("=" * 20)
-print("|" * 20)
-print("=" * 20)
+skip_lines()
 
 # Lion Demonstration
+print("================Lion================")
 lion.move()
 lion.sleep()
 lion.eat()
@@ -134,11 +134,10 @@ its own specific method 'hunt'. This demonstrates how subclasses can extend pare
 new behaviors in inheritance.
 """
 
-print("=" * 20)
-print("|" * 20)
-print("=" * 20)
+skip_lines()
 
 # Tuna Demonstration
+print("================Tuna================")
 tuna.move()
 tuna.sleep()
 tuna.eat()
@@ -149,11 +148,10 @@ The 'tuna' object is an instance of the 'Fish' class, which inherits all behavio
 Since 'Fish' does not define any new behavior, it will only use the inherited methods.
 """
 
-print("=" * 20)
-print("|" * 20)
-print("=" * 20)
+skip_lines()
 
 # Cockroach Demonstration
+print("================Cockroach================")
 cockroach.move()
 cockroach.sleep()
 cockroach.eat()
@@ -163,3 +161,4 @@ print(cockroach)
 The 'cockroach' object is an instance of the 'Insect' class, which inherits all behaviors from 'Animal'.
 It uses only the inherited methods from 'Animal'.
 """
+skip_lines()
