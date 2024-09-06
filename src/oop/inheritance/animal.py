@@ -1,3 +1,8 @@
+def skip_lines():
+    for _ in range(3):
+        print()
+
+
 class Animal:
     """
     The 'Animal' class represents a generic animal with common properties such as name and species,
@@ -96,8 +101,8 @@ class Insect(Animal):
 # Example usage of the Animal, WildCat, Fish, Bird, and Insect classes:
 
 eagle: Bird = Animal("Eagle", "Aves")
-tuna: Fish = Animal("Tuna", "Pisces")
-lion: WildCat = Animal("Lion", "Felidae")
+tuna: Fish = Fish("Tuna", "Pisces")
+lion: WildCat = WildCat("Lion", "Felidae")
 cockroach: Insect = Animal("Cockroach", "Insect")
 
 # Eagle Demonstration
