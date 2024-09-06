@@ -1,7 +1,5 @@
 # OOP Inheritance & Polymorphism Assignment
 
-Welcome to your next OOP assignment! This will focus on testing your understanding of **Inheritance** and **Polymorphism** in Python. You will be tasked with creating unique solutions that incorporate the core principles of Object-Oriented Programming (OOP).
-
 Please ensure to complete both tasks in separate files, and demonstrate all required concepts through detailed coding and comments.
 
 ---
@@ -129,6 +127,5 @@ You are tasked with developing a **Payment Gateway System** that will simulate m
 - Make sure your code is clean and follows Python coding conventions (PEP 8).
 - Add comments where necessary to explain your logic.
 - **Testing**: Ensure your code runs without errors. Test it thoroughly with edge cases.
-- Submit your completed assignment via GitHub by pushing your changes to the respective repository.
-
-Good luck and have fun coding! 🚀
+- Create a branch and name it with your name or nickname
+- Submit your completed assignment via GitHub by pushing your changes to your branch.
