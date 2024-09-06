@@ -8,7 +8,7 @@ class Animal:
         specie (str): The species the animal belongs to.
     """
 
-    def __init__(self, name: str, specie: str):
+    def __init__(self, name: str, specie: str) -> None:
         """
         Initializes the animal with its name and species.
 
